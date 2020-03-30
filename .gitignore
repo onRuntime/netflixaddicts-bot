@@ -1,6 +1,3 @@
-# App
-data.json
-
 # Logs
 logs
 *.log
@@ -118,7 +115,8 @@ dist
 .pnp.*
 
 # User-specific stuff
-.idea/
+idea/
+.idea
 
 # CMake
 cmake-build-*/

@@ -1,0 +1,1300 @@
+{
+    "prefix": "n!",
+    "logo": "./images/logo.png",
+    "roles": {
+        "TEAM": "531893141356412929",
+        "RESPONSIBLE": "531893809211113487",
+        "MODERATOR": "531893838260863006",
+        "DESIGNER": "531895701874147328",
+        "PARTNER": "531907729460297728",
+        "CELESTIAL": "573130352743415828",
+        "VIP": "531898821261918211",
+        "MUTED": "555445985627602946",
+        "NETFLIXER": "555334104087003137",
+        "TOUDOUM": "531913164380438539",
+        "WAITING": "557174292773732358",
+        "ZONE51": "532545714740527104"
+    },
+    "encyclopedia": [
+        {
+            "id": 1,
+            "name": "You",
+            "type": "Série",
+            "title": "You",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Dramatique",
+                "Suspense",
+                "Thrillers"
+            ],
+            "synopsis": "Joe, le gérant d'une librairie new-yorkaise, devient obsédé par Beck, une jeune aspirante écrivaine qui partage sa passion pour les livres et pour la poésie. Persuadé qu'ils sont faits l'un pour l'autre, il va alors se servir des réseaux sociaux pour nourrir son obsession, savoir en permanence où elle se trouve et ce qu'elle fait, et tenter de faire tomber tous les obstacles qui pourraient se dresser en travers du chemin de leur possible romance. Quitte à commettre des actes totalement fous...",
+            "info": {
+                "seasons": 2,
+                "episodes": 20,
+                "age": "16",
+                "episode-time": 49,
+                "producers": [
+                    "Greg Berlanti",
+                    "Sera Gamble"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h11"
+        },
+        {
+            "id": 2,
+            "name": "Daybreak",
+            "type": "Série",
+            "title": "Daybreak",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Ado",
+                "Comique",
+                "Épouvante",
+                "Insolite",
+                "Palpitant"
+            ],
+            "synopsis": "Dans une ville post-apocalyptique, Glendale, Josh, un lycéen de 17 ans part à la recherche de sa petite amie disparue, Sam. Il est rejoint par un groupe de marginaux délinquants. Josh et ses acolytes tentent de rester en vie en se confrontant à des gangs de Ghoulies, des zombies.",
+            "info": {
+                "seasons": 1,
+                "episodes": 10,
+                "age": "16",
+                "episode-time": 45,
+                "producers": [
+                    "Aron Eli Coleite",
+                    "Brad Peyton"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h15"
+        },
+        {
+            "id": 3,
+            "name": "Alta Mar",
+            "type": "Série",
+            "title": "Alta Mar",
+            "image": "",
+            "note": 4.5,
+            "styles": [
+                "Thrillers",
+                "Suspense",
+                "Émotion"
+            ],
+            "synopsis": "Dans les années 1940, un luxueux paquebot relie l'Espagne à Rio de Janeiro. À son bord, deux sœurs inséparables, un bel officier, et quelques cadavres mystérieux...",
+            "info": {
+                "seasons": 2,
+                "episodes": 16,
+                "age": "16",
+                "episode-time": 42,
+                "producers": [
+                    "Ramón Campos",
+                    "Gema R. Neira"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h17"
+        },
+        {
+            "id": 4,
+            "name": "Scorpion",
+            "type": "Série",
+            "title": "Scorpion",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Action",
+                "Aventure",
+                "Suspense"
+            ],
+            "synopsis": "Walter O'Brien, surnommé \"Scorpion\", un homme possédant le 4ème Q.I. le plus élevé du monde, a recruté quelques-uns des plus grands génies de la planète pour fonder une société chargée de résoudre des crises urgentes et d'ampleur considérable, de celles que même la CIA ne parvient pas à régler seule. Inadaptés socialement, ils apprennent ensemble à vivre en communauté, à dépasser leurs peurs, leurs phobies et à vaincre leur solitude...",
+            "info": {
+                "seasons": 4,
+                "episodes": 93,
+                "age": "13",
+                "episode-time": 42,
+                "producers": [
+                    "Nick Santora"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h20"
+        },
+        {
+            "id": 5,
+            "name": "Insatiable",
+            "type": "Série",
+            "title": "Insatiable",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Ado",
+                "Comique",
+                "Ironique",
+                "Insolite"
+            ],
+            "synopsis": "Un avocat disgracié reconverti en coach pour concours de beauté prend pour cliente une adolescente brimée et en quête de vengeance. Il ignore alors tout du monstre qu'il est sur le point de libérer...",
+            "info": {
+                "seasons": 2,
+                "episodes": 22,
+                "age": "16",
+                "episode-time": 44,
+                "producers": [
+                    "Lauren Gussis"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h22"
+        },
+        {
+            "id": 6,
+            "name": "Gotham",
+            "type": "Série",
+            "title": "Gotham",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Action",
+                "Aventure",
+                "Palpitant"
+            ],
+            "synopsis": "Tout le monde connaît le Commissaire Gordon, valeureux adversaire des plus dangereux criminels, un homme dont la réputation rime avec \"loi\" et \"ordre\". Mais que sait-on de son histoire ? De son ascension dans une institution corrompue, qui gangrène une ville comme Gotham, terrain fertile des méchants les plus emblématiques ? Comment sont nées ces figures du crime, ces personnages hors du commun que sont Catwoman, le Pingouin, l'Homme-mystère, Double-Face et le Joker ?",
+            "info": {
+                "seasons": 5,
+                "episodes": 100,
+                "age": "16",
+                "episode-time": 49,
+                "producers": [
+                    "Bruno Heller"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h24"
+        },
+        {
+            "id": 7,
+            "name": "The end of the f∗∗∗ing world",
+            "type": "Série",
+            "title": "The end of the f∗∗∗ing world",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Ado",
+                "Comique",
+                "Insolite"
+            ],
+            "synopsis": "Un ado psychopathe en herbe et une rebelle en quête d'aventure embarquent pour un road trip d'enfer dans cette série à l'humour noir inspirée d'un roman graphique.",
+            "info": {
+                "seasons": 2,
+                "episodes": 16,
+                "age": "16",
+                "episode-time": 21,
+                "producers": [
+                    "Jonathan Entwistle"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h26"
+        },
+        {
+            "id": 8,
+            "name": "Trailer Park Boy: The Animated Series",
+            "type": "Série",
+            "title": "Trailer Park Boy: The Animated Series",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Comique"
+            ],
+            "synopsis": "Suivez les aventures de trois malfrats inséparables dont le quotidien est rythmé par les drogues, l'alcool et les petits larcins en tout genre.",
+            "info": {
+                "seasons": 1,
+                "episodes": 10,
+                "age": "16",
+                "episode-time": 24,
+                "producers": [
+                    "Norm Hiscock",
+                    "Gary Howsam",
+                    "Mike Smith",
+                    "John Paul Tremblay",
+                    "Robb Wells"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h29"
+        },
+        {
+            "id": 9,
+            "name": "Quicksand",
+            "type": "Série",
+            "title": "Quicksand",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Ado",
+                "Émotion"
+            ],
+            "synopsis": "Adapté du roman \"Rien de plus grand\" écrit par Malin Persson Giolito, Quicksand se déroule neuf mois après qu’une fusillade a éclaté dans une école de la banlieue la plus riche de Stockholm. Une étudiante va se retrouver en procès pour meurtre...",
+            "info": {
+                "seasons": 1,
+                "episodes": 6,
+                "age": "16",
+                "episode-time": 43,
+                "producers": [
+                    "Camilla Ahlgren"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h32"
+        },
+        {
+            "id": 10,
+            "name": "Bonding",
+            "type": "Série",
+            "title": "Bonding",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Comique"
+            ],
+            "synopsis": "Deux amis inséparables au lycée se retrouvent à New York après s'être perdus de vue, mais leur nouveau terrain de jeu est radicalement différent.",
+            "info": {
+                "seasons": 1,
+                "episodes": 7,
+                "age": "16",
+                "episode-time": 15,
+                "producers": [
+                    "Rightor Doyle"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h34"
+        },
+        {
+            "id": 11,
+            "name": "GreenHouse académie",
+            "type": "Série",
+            "title": "GreenHouse académie",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Ado",
+                "Dramatique"
+            ],
+            "synopsis": "The Greenhouse se déroule dans un pensionnat d’élite du Sud de la Californie : The Greenhouse. Les étudiants sont divisés en deux maisons rivales qui s’opposent régulièrement pour gagner des défis lorsqu’un complot malveillant est découvert.",
+            "info": {
+                "seasons": 3,
+                "episodes": 32,
+                "age": "7",
+                "episode-time": 23,
+                "producers": [
+                    "Giora Chamizer"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h35"
+        },
+        {
+            "id": 12,
+            "name": "The I-Land",
+            "type": "Série",
+            "title": "The I-Land",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Science-fiction",
+                "Action",
+                "Aventure",
+                "Hallucinant",
+                "Violent"
+            ],
+            "synopsis": "Lorsque dix personnes se réveillent sur une île inquiétante et hostile sans se souvenir de qui ils sont ni de comment ils sont arrivés là, ils se lancent dans une randonnée de tous les dangers dans l'espoir de revenir à la maison. Face à la pression physique et psychologique, ils vont devoir puiser dans des forces insoupçonnées pour survivre...",
+            "info": {
+                "seasons": 1,
+                "episodes": 7,
+                "age": "16",
+                "episode-time": 40,
+                "producers": [
+                    "Lucy Teitler",
+                    "Neil LaBute"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h38"
+        },
+        {
+            "id": 13,
+            "name": "Marianne",
+            "type": "Série",
+            "title": "Marianne",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Série Française",
+                "Épouvante",
+                "Hallucinant",
+                "Effrayant"
+            ],
+            "synopsis": "Emma, jeune romancière acerbe, découvre avec horreur que les personnages monstrueux qu’elle a créés dans sa série de romans horrifiques sont réellement en train de prendre vie dans la petite ville où elle a grandi...",
+            "info": {
+                "seasons": 1,
+                "episodes": 8,
+                "age": "16",
+                "episode-time": 42,
+                "producers": [
+                    "Samuel Bodin"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h39"
+        },
+        {
+            "id": 14,
+            "name": "Cauchemars et canulars",
+            "type": "Série",
+            "title": "Cauchemars et canulars",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Divertissement",
+                "Talk-show",
+                "Téléréalité",
+                "Comique",
+                "Épouvante",
+                "Montée d'adrénaline",
+                "Effrayant"
+            ],
+            "synopsis": "Entre frissons et divertissement, d'innocentes victimes deviennent les stars de leur propre film d'horreur dans une émission de caméra cachée hilarante.",
+            "info": {
+                "seasons": 1,
+                "episodes": 8,
+                "age": "13",
+                "episode-time": 22,
+                "producers": [
+                    "Gaten Matarazzo"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h43"
+        },
+        {
+            "id": 15,
+            "name": "Mortel",
+            "type": "Série",
+            "title": "Mortel",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Série Française",
+                "Fantastique",
+                "Ado",
+                "Dramatique",
+                "Suspense"
+            ],
+            "synopsis": "Dans un lycée de banlieue, Sofiane, Victor et Luisa, trois ados que tout oppose, se retrouvent liés par une force surnaturelle incontrôlable. Unissant leurs nouveaux pouvoirs vaudou pour retrouver le frère de Sofiane, le trio découvre que l’amitié au lycée est surtout un moyen de survie...",
+            "info": {
+                "seasons": 1,
+                "episodes": 6,
+                "age": "16",
+                "episode-time": 49,
+                "producers": [
+                    "Frédéric Garcia"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h45"
+        },
+        {
+            "id": 16,
+            "name": "How to sell drugs online (Fast)",
+            "type": "Série",
+            "title": "How to sell drugs online (Fast)",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Ado",
+                "Comique",
+                "Insolite"
+            ],
+            "synopsis": "Comment reconquérir le cœur de votre petite amie qui vous a quitté pour le dealer de l'école ? Pour Moritz, la réponse est claire : vendre de meilleures drogues que lui !",
+            "info": {
+                "seasons": 1,
+                "episodes": 6,
+                "age": "16",
+                "episode-time": 27,
+                "producers": [
+                    "Philipp Käßbohrer",
+                    "Matthias Murmann"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h48"
+        },
+        {
+            "id": 17,
+            "name": "Love, Death & Robots",
+            "type": "Série",
+            "title": "Love, Death & Robots",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Science-fiction",
+                "Thrillers",
+                "Épouvante",
+                "Hallucinant",
+                "Palpitant"
+            ],
+            "synopsis": "Un yaourt susceptible, des soldats lycanthropes, des robots déchaînés, des monstres-poubelles, des chasseurs de primes cyborgs, des araignées extraterrestres et des démons de l'enfer assoiffés de sang : tout ce beau monde est réuni dans 18 courts d'animation déconseillés aux âmes sensibles.",
+            "info": {
+                "seasons": 1,
+                "episodes": 18,
+                "age": "18",
+                "episode-time": 12,
+                "producers": [
+                    "Tim Miller"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h51"
+        },
+        {
+            "id": 18,
+            "name": "Les 100",
+            "type": "Série",
+            "title": "Les 100",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Science-fiction",
+                "Politique",
+                "Violent"
+            ],
+            "synopsis": "Après une apocalypse nucléaire causée par l'Homme lors d'une troisième Guerre Mondiale, les 318 survivants recensés se réfugient dans des stations spatiales et parviennent à y vivre et à se reproduire, atteignant le nombre de 4000. Mais 97 ans plus tard, le vaisseau mère, l'Arche, est en piteux état. Une centaine de jeunes délinquants emprisonnés au fil des années pour des crimes ou des trahisons sont choisis comme cobayes par les autorités pour redescendre sur Terre et tester les chances de survie. Dès leur arrivée, ils découvrent un nouveau monde dangereux mais fascinant...",
+            "info": {
+                "seasons": 6,
+                "episodes": 97,
+                "age": "16",
+                "episode-time": 41,
+                "producers": [
+                    "Jason Rothenberg"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h52"
+        },
+        {
+            "id": 19,
+            "name": "Paradise Police",
+            "type": "Série",
+            "title": "Paradise Police",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Comique",
+                "Absurde",
+                "Violent"
+            ],
+            "synopsis": "Dans le commissariat d'une petite ville, plongée dans le quotidien des plus mauvais policiers de tout le pays.",
+            "info": {
+                "seasons": 1,
+                "episodes": 10,
+                "age": "16",
+                "episode-time": 27,
+                "producers": [
+                    "Waco O'Guin",
+                    "Roger Black"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h54"
+        },
+        {
+            "id": 20,
+            "name": "Stranger Things",
+            "type": "Série",
+            "title": "Stranger Things",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Dramatique",
+                "Suspense",
+                "Thrillers"
+            ],
+            "synopsis": "A Hawkins, en 1983 dans l'Indiana. Lorsque Will Byers disparaît de son domicile, ses amis se lancent dans une recherche semée d’embûches pour le retrouver. Dans leur quête de réponses, les garçons rencontrent une étrange jeune fille en fuite. Les garçons se lient d'amitié avec la demoiselle tatouée du chiffre \"11\" sur son poignet et au crâne rasé et découvrent petit à petit les détails sur son inquiétante situation. Elle est peut-être la clé de tous les mystères qui se cachent dans cette petite ville en apparence tranquille...",
+            "info": {
+                "seasons": 3,
+                "episodes": 25,
+                "age": "16",
+                "episode-time": 53,
+                "producers": [
+                    "Matt Duffer",
+                    "Ross Duffer"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h56"
+        },
+        {
+            "id": 21,
+            "name": "The witcher",
+            "type": "Série",
+            "title": "The witcher",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Fantastique",
+                "Action",
+                "Aventure",
+                "Palpitant"
+            ],
+            "synopsis": "Le sorceleur Geralt, un chasseur de monstres mutant, se bat pour trouver sa place dans un monde où les humains se révèlent souvent plus vicieux que les bêtes.",
+            "info": {
+                "seasons": 1,
+                "episodes": 8,
+                "age": "16",
+                "episode-time": 62,
+                "producers": [
+                    "Lauren Schmidt Hissrich"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h57"
+        },
+        {
+            "id": 22,
+            "name": "Dynastie",
+            "type": "Série",
+            "title": "Dynastie",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Dramatique"
+            ],
+            "synopsis": "Un reboot moderne et diversifié du soap classique des années 80, qui suit deux des familles les plus riches des Etats-Unis, les Carringtons et les Colbys, qui se battent pour le contrôle de leur richesse et leur famille.",
+            "info": {
+                "seasons": 2,
+                "episodes": 44,
+                "age": "13",
+                "episode-time": 42,
+                "producers": [
+                    "Josh Schwartz",
+                    "Stephanie Savage",
+                    "Sallie Patrick"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 17h59"
+        },
+        {
+            "id": 23,
+            "name": "Rick et Morty",
+            "type": "Série",
+            "title": "Rick et Morty",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Science-fiction",
+                "Sitcoms",
+                "Comique",
+                "Absurde",
+                "Excentrique"
+            ],
+            "synopsis": "Un brillant inventeur et son petit fils un peu à l'Ouest partent à l'aventure...",
+            "info": {
+                "seasons": 4,
+                "episodes": 41,
+                "age": "16",
+                "episode-time": 22,
+                "producers": [
+                    "Dan Harmon",
+                    "Justin Roiland"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h01"
+        },
+        {
+            "id": 24,
+            "name": "The Order",
+            "type": "Série",
+            "title": "The Order",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Fantastique",
+                "Ado",
+                "Intrigue",
+                "Épouvante",
+                "Dramatique",
+                "Suspense"
+            ],
+            "synopsis": "Jack Morton, nouvel élève à l'Université, rejoint une société secrète légendaire appelée l'Ordre. Il est alors plongé dans un monde magique, de monstres et d'intrigues.",
+            "info": {
+                "seasons": 1,
+                "episodes": 10,
+                "age": "16",
+                "episode-time": 46,
+                "producers": [
+                    "Shelley Eriksen",
+                    "Dennis Heaton"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h03"
+        },
+        {
+            "id": 25,
+            "name": "13 Reasons Why",
+            "type": "Série",
+            "title": "13 Reasons Why",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Ado",
+                "Intrigue",
+                "Dramatique",
+                "Suspense",
+                "Émotion"
+            ],
+            "synopsis": "Inspirée des best-sellers de Jay Asher, 13 Reasons Why suit Clay Jensen, un adolescent qui découvre sous son porche au retour du lycée une mystérieuse boîte portant son nom. À l'intérieur, des cassettes enregistrées par Hannah Baker, une camarade de classe qui s'est tragiquement suicidée deux semaines auparavant. Les enregistrements révèlent que la jeune fille, dont il était amoureux, a décidé de mettre fin à ses jours pour treize raisons. Clay est-il l'une de ces raisons ?",
+            "info": {
+                "seasons": 3,
+                "episodes": 40,
+                "age": "16",
+                "episode-time": 56,
+                "producers": [
+                    "Brian Yorkey"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h06"
+        },
+        {
+            "id": 26,
+            "name": "Élite",
+            "type": "Série",
+            "title": "Élite",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Ado",
+                "Intrigue",
+                "Thrillers"
+            ],
+            "synopsis": "Las Encinas est l’école la plus compétitive et huppée d’Espagne accueillant les enfants de l’élite. C’est également dans cette école que trois enfants de la classe ouvrière sont admis lorsque leur école est détruite et que les étudiants sont alors répartis dans plusieurs établissements. Ils pensaient être chanceux… mais peut-être ne le sont-ils pas tant que cela ? La confrontation entre ceux qui ont tout et ceux qui n’ont rien est explosive, et aboutira à un meurtre. Qui est vraiment derrière ce crime ? Est-ce l’un des nouveaux arrivants ? Ou se cache-t-il quelque chose de plus sombre ?",
+            "info": {
+                "seasons": 2,
+                "episodes": 16,
+                "age": "16",
+                "episode-time": 49,
+                "producers": [
+                    "Carlos Montero",
+                    "Darío Madrona"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h08"
+        },
+        {
+            "id": 27,
+            "name": "Désenchantée",
+            "type": "Série",
+            "title": "Désenchantée",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Fantastique",
+                "Comique",
+                "Action",
+                "Aventure"
+            ],
+            "synopsis": "Direction le royaume médiéval en ruines de Dreamland pour suivre les mésaventures de Bean, une jeune princesse picoleuse, de son compagnon, un elfe chicaneur nommé Elfo et de son propre démon, Luci. En chemin, le fantasque trio rencontrera des ogres, des lutins, des harpies, des diablotins, des trolls, des morses et beaucoup d’humains idiots.",
+            "info": {
+                "seasons": 2,
+                "episodes": 20,
+                "age": "16",
+                "episode-time": 25,
+                "producers": [
+                    "Matt Groening",
+                    "Josh Weinstein"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h09"
+        },
+        {
+            "id": 28,
+            "name": "The rain",
+            "type": "Série",
+            "title": "The rain",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Science-fiction",
+                "Ado",
+                "Dramatique",
+                "Suspense"
+            ],
+            "synopsis": "Six ans après l'apparition d'un virus mortel ayant éliminé plus de la moitié de la population, un frère et une sœur partent à la recherche d'un abri dans un monde devenu périlleux.",
+            "info": {
+                "seasons": 2,
+                "episodes": 14,
+                "age": "13",
+                "episode-time": 41,
+                "producers": [
+                    "Jannik Tai Mosholt",
+                    "Esben Toft Jacobsen",
+                    "Christian Potalivo"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h11"
+        },
+        {
+            "id": 29,
+            "name": "On my block",
+            "type": "Série",
+            "title": "On my block",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Ado",
+                "Comique",
+                "Émotion",
+                "Romantique"
+            ],
+            "synopsis": "Cette série pleine d'humour met en scène un groupe éclectique d'ados qui grandit à la dure dans les quartiers difficiles de Los Angeles.",
+            "info": {
+                "seasons": 2,
+                "episodes": 20,
+                "age": "16",
+                "episode-time": 27,
+                "producers": [
+                    "Eddie Gonzalez",
+                    "Lauren Iungerich",
+                    "Jeremy Haft"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h14"
+        },
+        {
+            "id": 30,
+            "name": "The society",
+            "type": "Série",
+            "title": "The society",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Ado",
+                "Dramatique",
+                "Suspense"
+            ],
+            "synopsis": "Des adolescents sont mystérieusement transportés, sans laisser de traces, vers un fac-similé de leur riche ville de la Nouvelle-Angleterre. Afin de revenir dans leur \"vraie\" ville mais aussi pour survivre, des alliances vont devoir s'établir au plus vite.",
+            "info": {
+                "seasons": 1,
+                "episodes": 10,
+                "age": "13",
+                "episode-time": 55,
+                "producers": [
+                    "Christopher Keyser"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h16"
+        },
+        {
+            "id": 31,
+            "name": "Trinkets",
+            "type": "Série",
+            "title": "Trinkets",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Ado",
+                "Dramatique",
+                "Émotion"
+            ],
+            "synopsis": "Trois lycéennes que tout oppose : Elodie, la marginale, Moe, la délinquante et Tabitha, la populaire se rencontrent lors d'une séance des \"Voleurs à l'étalage Anonymes\". Contre toute attente, elles se lient d'amitié.",
+            "info": {
+                "seasons": 1,
+                "episodes": 10,
+                "age": "13",
+                "episode-time": 25,
+                "producers": [
+                    "Amy Andelson",
+                    "Emily Meyer",
+                    "Kirsten Smith"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h19"
+        },
+        {
+            "id": 32,
+            "name": "La casa de papel",
+            "type": "Série",
+            "title": "La casa de papel",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Thillers",
+                "Suspense",
+                "Palpitant"
+            ],
+            "synopsis": "Huit voleurs font une prise d'otages dans la Maison royale de la Monnaie d'Espagne, tandis qu'un génie du crime manipule la police pour mettre son plan à exécution.",
+            "info": {
+                "seasons": 3,
+                "episodes": 30,
+                "age": "16",
+                "episode-time": 45,
+                "producers": [
+                    "Álex Pina"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h25"
+        },
+        {
+            "id": 33,
+            "name": "Les nouvelles aventures de Sabrina",
+            "type": "Série",
+            "title": "Les nouvelles aventures de Sabrina",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Fantastique",
+                "Ado",
+                "Effrayant",
+                "Violent",
+                "Épouvante"
+            ],
+            "synopsis": "Les nouvelles aventures de Sabrina imagine l’origine des aventures de Sabrina l’apprentie sorcière comme une sombre histoire axée sur le passage à l’âge adulte à travers l’horreur, les sciences occultes et bien sûr la sorcellerie. Sabrina lutte pour concilier sa double nature – mi-sorcière, mi-mortelle – tout en s’opposant aux forces du mal qui la menacent elle, sa famille et le monde des mortels.",
+            "info": {
+                "seasons": 2,
+                "episodes": 28,
+                "age": "16",
+                "episode-time": 58,
+                "producers": [
+                    "Roberto Aguirre-Sacasa"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h27"
+        },
+        {
+            "id": 34,
+            "name": "Riverdale",
+            "type": "Série",
+            "title": "Riverdale",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Ado",
+                "Dramatique",
+                "Insolite",
+                "Émotion"
+            ],
+            "synopsis": "Sous ses airs de petite ville tranquille, Riverdale cache en réalité de sombres secrets. Alors qu'une nouvelle année scolaire débute, le jeune Archie Andrews et ses amis Betty, Jughead, et Kevin voient leur quotidien bouleversé par la mort mystérieuse de Jason Blossom, un de leurs camarades de lycée. Alors que les secrets des uns et des autres menacent de remonter à la surface, et que la belle Veronica, fraîchement débarquée de New York, fait une arrivée remarquée en ville, plus rien ne sera jamais comme avant à Riverdale...",
+            "info": {
+                "seasons": 4,
+                "episodes": 68,
+                "age": "16",
+                "episode-time": 42,
+                "producers": [
+                    "Roberto Aguirre-Sacasa"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "30/01/2020 à 18h32"
+        },
+        {
+            "id": 35,
+            "name": "Sex Education",
+            "type": "Série",
+            "title": "Sex Education",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Ado",
+                "Comique"
+            ],
+            "synopsis": "La rebelle Maeve entraîne Otis, un ado vierge mais doté d'une mère sexologue, dans la création d'une cellule de thérapie sexuelle clandestine au sein de leur lycée...",
+            "info": {
+                "seasons": 2,
+                "episodes": 16,
+                "age": "16",
+                "episode-time": 49,
+                "producers": [
+                    "Laurie Nunn"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h38"
+        },
+        {
+            "id": 36,
+            "name": "Titans",
+            "type": "Série",
+            "title": "Titans",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Science-fiction",
+                "Action",
+                "Aventure",
+                "Violent",
+                "Dramatique"
+            ],
+            "synopsis": "Dick Grayson, alias Robin, sort de l’ombre pour devenir le chef de file d’un groupe de nouveaux héros constitué notamment de Starfire, Raven ou encore Hawk et Dove. Peu à peu, il s'affranchit de Batman pour devenir Nightwing...",
+            "info": {
+                "seasons": 2,
+                "episodes": 24,
+                "age": "16",
+                "episode-time": 49,
+                "producers": [
+                    "Greg Berlanti",
+                    "Akiva Goldsman",
+                    "Geoff Johns"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h42"
+        },
+        {
+            "id": 37,
+            "name": "Teen wolf",
+            "type": "Série",
+            "title": "Teen wolf",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Ado",
+                "Épouvante",
+                "Action",
+                "Aventure",
+                "Suspense",
+                "Palpitant"
+            ],
+            "synopsis": "Scott McCall est un adolescent tout ce qu'il y a de plus ordinaire. Il n'est pas le plus populaire de son lycée, il n'en est pas la risée non plus... Un soir, son meilleur ami Stiles le convainc de suivre en cachette les recherches de la police pour retrouver un corps dans les bois alentours. Au cours de cette expédition, il se retrouve nez à nez avec une bête étrange et particulièrement féroce. Il échappe de peu à cette attaque et, chanceux, avec une seule blessure: une vilaine morsure. Le lendemain, Scott se sent bizarre. Sans qu'il ne le sache encore, sa vie vient de changer. Il est devenu un loup-garou...",
+            "info": {
+                "seasons": 6,
+                "episodes": 100,
+                "age": "16",
+                "episode-time": 41,
+                "producers": [
+                    "Jeff Davis"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h44"
+        },
+        {
+            "id": 38,
+            "name": "Black mirror",
+            "type": "Série",
+            "title": "Black mirror",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Science-fiction",
+                "Thrillers",
+                "Cyberpunk",
+                "Hallucinant",
+                "Dramatique"
+            ],
+            "synopsis": "Chaque épisode de cette anthologie montre la dépendance des hommes vis-à-vis de tout ce qui a un écran...",
+            "info": {
+                "seasons": 5,
+                "episodes": 24,
+                "age": "16",
+                "episode-time": 60,
+                "producers": [
+                    "Charlie Brooker"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h48"
+        },
+        {
+            "id": 39,
+            "name": "Supergirl",
+            "type": "Série",
+            "title": "Supergirl",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Science-fiction",
+                "Action",
+                "Aventure",
+                "Palpitant"
+            ],
+            "synopsis": "Les aventures de Kara Zor-El, la cousine de Superman, alias Supergirl. A 24 ans, la jeune femme, qui mène sa vie en marge de celle de son célèbre cousin, se sent impuissante face à ses pouvoirs extraordinaires qu'on lui a appris à ne pas utiliser. Employée dans un grand média de National City, elle va se retrouver à mener une double vie pour combattre le crime dans sa ville.",
+            "info": {
+                "seasons": 4,
+                "episodes": 87,
+                "age": "13",
+                "episode-time": 42,
+                "producers": [
+                    "Andrew Kreisberg",
+                    "Allison Adler",
+                    "Greg Berlanti"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h50"
+        },
+        {
+            "id": 40,
+            "name": "The Flash",
+            "type": "Série",
+            "title": "The Flash",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Science-fiction",
+                "Action",
+                "Aventure",
+                "Palpitant",
+                "Montée d'adrénaline"
+            ],
+            "synopsis": "Jeune expert de la police scientifique de Central City, Barry Allen se retrouve doté d'une vitesse extraordinaire après avoir été frappé par la foudre. Sous le costume de Flash, il utilise ses nouveaux pouvoirs pour combattre le crime.",
+            "info": {
+                "seasons": 5,
+                "episodes": 114,
+                "age": "13",
+                "episode-time": 41,
+                "producers": [
+                    "Greg Berlanti",
+                    "Andrew Kreisberg"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h52"
+        },
+        {
+            "id": 41,
+            "name": "Big Mouth",
+            "type": "Série",
+            "title": "Big Mouth",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Comique",
+                "Excentrique"
+            ],
+            "synopsis": "Les aventures d'adolescents à l'heure de la puberté.",
+            "info": {
+                "seasons": 3,
+                "episodes": 31,
+                "age": "16",
+                "episode-time": 27,
+                "producers": [
+                    "Nick Kroll",
+                    "Mark Levin",
+                    "Andrew Goldberg"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h53"
+        },
+        {
+            "id": 42,
+            "name": "Umbrella académie",
+            "type": "Série",
+            "title": "Umbrella académie",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Science-fiction",
+                "Action",
+                "Aventure",
+                "Hallucinant",
+                "Insolite"
+            ],
+            "synopsis": "En 1989, le même jour, quarante-trois bébés sont inexplicablement nés de femmes qui n'étaient pas enceintes et que rien ne relie. Sir Reginald Hargreeves, un industriel milliardaire, adopte sept de ces enfants et crée The Umbrella Academy pour les préparer à sauver le monde. Mais tout ne se déroule pas comme prévu. Les enfants devenus adolescents, la famille se désagrège et l'équipe est dispersée. Les six membres toujours en vie, désormais trentenaires, se retrouvent à l'occasion de la mort de Hargreeves. Luther, Diego, Allison, Klaus, Vanya et Numéro Cinq travaillent ensemble pour résoudre le mystère qui entoure la mort de leur père. La famille désunie se sépare cependant de nouveau, incapable de gérer des personnalités et des pouvoirs trop différents, sans même parler de l'apocalypse qui menace...",
+            "info": {
+                "seasons": 1,
+                "episodes": 10,
+                "age": "16",
+                "episode-time": 57,
+                "producers": [
+                    "Steve Blackman"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h54"
+        },
+        {
+            "id": 43,
+            "name": "Comment élever un super-héros",
+            "type": "Série",
+            "title": "Comment élever un super-héros",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Familiale",
+                "Action",
+                "Aventure",
+                "Palpitant"
+            ],
+            "synopsis": "Après la mort de son mari, une mère célibataire tente de cacher les super-pouvoirs de son fils pour le protéger de personnes mal intentionnées.",
+            "info": {
+                "seasons": 1,
+                "episodes": 9,
+                "age": "7",
+                "episode-time": 45,
+                "producers": [
+                    "Carol Barbee"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h56"
+        },
+        {
+            "id": 44,
+            "name": "Dracula",
+            "type": "Série",
+            "title": "Dracula",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Effrayant",
+                "Épouvante",
+                "Suspense"
+            ],
+            "synopsis": "Transylvanie, Roumanie. 1897. Le Comte Dracula boit du sang tout en dessinant ses futurs projets contre le Londres victorien.",
+            "info": {
+                "seasons": 1,
+                "episodes": 3,
+                "age": "16",
+                "episode-time": 90,
+                "producers": [
+                    "Steven Moffat",
+                    "Mark Gatiss"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 18h58"
+        },
+        {
+            "id": 45,
+            "name": "Jusqu'à l'aube",
+            "type": "Série",
+            "title": "Jusqu'à l'aube",
+            "image": "",
+            "note": -1,
+            "styles": [
+                "Talk-show",
+                "Téléréalité",
+                "Française",
+                "Téléréalité",
+                "Efrayant",
+                "Humour"
+            ],
+            "synopsis": "Les meilleurs humoristes de France rivalisent dans des lieux hantés, la nuit. Qui gardera son esprit sans perdre son sang froid ?",
+            "info": {
+                "seasons": 1,
+                "episodes": 8,
+                "age": "13",
+                "episode-time": 22,
+                "producers": [
+                    "Inconnu"
+                ]
+            },
+            "authors": [
+                "215829096796651523"
+            ],
+            "date": "28/01/2020 à 19h00"
+        }
+    ]
+}
