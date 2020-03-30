@@ -1,10 +1,10 @@
-const Discord = require('discord.js')
-const Enmap = require('enmap')
-const fs = require('fs')
-const client = new Discord.Client()
+const Discord = require('discord.js');
+const Enmap = require('enmap');
+const fs = require('fs');
+const client = new Discord.Client();
 
-const data = require('./data.json')
-client.config = data
+const data = require('./data.json');
+client.config = data;
 
 fs.readdir("./events/", (err, files) => {
     if (err) return console.error(err);
@@ -23,9 +23,10 @@ fs.readdir("./commands/", (err, files) => {
       if (!file.endsWith(".js")) return;
       let props = require(`./commands/${file}`);
       let commandName = file.split(".")[0];
-      console.log(`Attempting to load command ${commandName}`);
       client.commands.set(commandName, props);
     });
 });
 
-client.login(client.config.token)
+const dotenv = require('dotenv');
+dotenv.config();
+client.login(process.env.TOKEN);
