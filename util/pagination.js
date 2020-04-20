@@ -5,25 +5,28 @@ const paginationEmbed = async (message, pages, subfooter, emojis = ['⬅', '➡'
 
     let page = 0;
     let reactionCollector = null;
-    const current = await message.channel
+    const current = message.channel
         .send(pages[page].setFooter(`📖 Page ${page + 1} sur ${pages.length} ${subfooter ? ` | ` + subfooter : ``}`))
-        .then(result => reactionCollector = result.createReactionCollector(
-            (reaction, user) => emojis.includes(reaction.emoji.name) && !user.bot,
-            {time: timeout}
-        ));
-    reactionCollector.on('collect', reaction => {
-        reaction.users.remove(message.author);
-        switch (reaction.emoji.name) {
-            case emojis[0]:
-                page = page > 0 ? --page : pages.length - 1;
-                break;
-            case emojis[1]:
-                page = page + 1 < pages.length ? ++page : 0;
-                break;
-        }
-        current.edit(pages[page].setFooter(`📖 Page ${page + 1} sur ${pages.length} ${subfooter ? ` | ` + subfooter : ``}`));
-    });
-    reactionCollector.on('end', () => current.reactions.removeAll());
+        .then(async (result) => {
+            for (const emoji of emojis) await result.react(emoji);
+            reactionCollector = result.createReactionCollector(
+                (reaction, user) => emojis.includes(reaction.emoji.name) && !user.bot,
+                {time: timeout}
+            );
+            reactionCollector.on('collect', reaction => {
+                reaction.users.remove(message.author);
+                switch (reaction.emoji.name) {
+                    case emojis[0]:
+                        page = page > 0 ? --page : pages.length - 1;
+                        break;
+                    case emojis[1]:
+                        page = page + 1 < pages.length ? ++page : 0;
+                        break;
+                }
+                current.edit(pages[page].setFooter(`📖 Page ${page + 1} sur ${pages.length} ${subfooter ? ` | ` + subfooter : ``}`));
+            });
+            reactionCollector.on('end', () => result.reactions.removeAll());
+        });
     return current;
 };
 module.exports = paginationEmbed;

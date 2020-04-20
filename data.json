@@ -1,6 +1,11 @@
 {
+    "guild": "531892871968587787",
     "prefix": "n!",
     "logo": "./images/logo.png",
+    "member_list": {
+        "category": "531897396741931009",
+        "name": "🔔 Important"
+    },
     "roles": {
         "TEAM": "531893141356412929",
         "RESPONSIBLE": "531893809211113487",
@@ -14,6 +19,8 @@
         "TOUDOUM": "531913164380438539",
         "WAITING": "557174292773732358",
         "ZONE51": "532545714740527104"
+    },
+    "privates": {
     },
     "encyclopedia": [
         {
