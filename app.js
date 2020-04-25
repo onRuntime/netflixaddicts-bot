@@ -27,6 +27,12 @@ fs.readdir("./commands/", (err, files) => {
     });
 });
 
+client.on("error", (e) => console.error(e));
+client.on("warn", (e) => console.warn(e));
+client.on("debug", (e) => console.info(e));
+
+client.privateChannels = new Enmap();
+
 const dotenv = require('dotenv');
 dotenv.config();
 client.login(process.env.TOKEN);

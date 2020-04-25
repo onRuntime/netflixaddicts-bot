@@ -51,13 +51,14 @@ exports.run = (client, message, args) => {
         if (args.length > 1) {
             const genre = args[1];
             const result = [];
-            ency.forEach(serie => {
+            for(const serie of ency) {
+                if(!message.member.roles.cache.some((role) => role.id === client.config.roles.TEAM) && serie.note !== -1) continue
                 serie.styles.forEach(style => {
                     if (style.toUpperCase() === genre.toUpperCase()) {
                         result.push(serie)
                     }
                 })
-            });
+            }
             const pagination = require('../util/pagination');
 
             var pages = [];
