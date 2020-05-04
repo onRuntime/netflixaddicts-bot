@@ -13,10 +13,8 @@ exports.run = async (client, message, args) => {
             return message.reply('tu n\'as pas de salon privé')
         }
         const private = channels.get(message.member.id)
+        private.delete().then(result => message.reply('ton salon privé a été supprimé'))
         channels.delete(message.member.id)
-        await private.voiceChannel.delete()
-        await private.textChannel.delete()
-        await private.category.delete().then(result => message.reply('ton salon privé a été supprimé'))
         return
     }
     if(args[0] === 'add') {

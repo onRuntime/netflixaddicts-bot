@@ -3,7 +3,7 @@ exports.run = (client, message, args) => {
         message.reply('tu n\'as pas la permission pour executer cette commande...')
         return
     }
-    if(isNaN(args[0]) || args[0] < 1 || args[0] > 100) {
+    if(!args || args.length < 1 || isNaN(args[0]) || args[0] < 1 || args[0] > 100) {
         message.reply('Tu dois indiquer un nombre compris entre 1 et 100 inclu. `' + client.config.prefix + 'help clear`')
         return
     }

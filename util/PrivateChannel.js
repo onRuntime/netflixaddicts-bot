@@ -33,6 +33,12 @@ class PrivateChannel {
             this.time = 3600
         })
     }
+
+    async delete() {
+        await this.voiceChannel.delete()
+        await this.textChannel.delete()
+        return this.category.delete()
+    }
 }
 
 module.exports = PrivateChannel

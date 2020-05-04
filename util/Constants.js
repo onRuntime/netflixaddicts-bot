@@ -23,3 +23,5 @@ exports.Roles = {
     WAITING = "557174292773732358",
     ZONE51 = "532545714740527104"
 }
+
+exports.Channels = {}
