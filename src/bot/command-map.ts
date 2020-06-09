@@ -1,10 +1,13 @@
+import { PermissionResolvable } from "discord.js";
+
 export class CommandMap extends Map<string, Array<Function>> {
     
-    on(cmd: string, handler: Function): this {
+    on(cmd: string, handler: Function, aliases?: string[], permissions: PermissionResolvable = []): this {
         if(!this.has(cmd))
             this.set(cmd, [handler]);
         else
             this.get(cmd).push(handler);
+        if(aliases) aliases.forEach((aliase: string) => this.on(aliase, handler, null, permissions));
         return this;
     }
 

@@ -27,14 +27,18 @@ export default class EncyclopediaPlugin implements IBotPlugin {
                 if(args && args.length > 1 && args[0].toLowerCase() === 'genre') {
                     search.substring(1);
                     this.ency.searchStyle(search).then((result: SearchResult<string>) => {
-                        response.edit(result.createPagination('Tu souhaites ajouter une série ? Utilise n!suggest', 5, true));
+                        result.createPagination('Tu souhaites ajouter une série ? Utilise n!suggest', 5, true).then((pagination: PaginationEmbed<unknown>) => {
+                            response.edit(pagination.build());
+                        });
                     }).catch((reason) => {
                         response.edit(reason);
                     });
                     return;
                 }
                 this.ency.search(search).then((result: SearchResult<EncyItem>) => {
-                    response.edit(result.createPagination('Tu souhaites ajouter une série ? Utilise n!suggest'));
+                    result.createPagination('Tu souhaites ajouter une série ? Utilise n!suggest').then((pagination: PaginationEmbed<unknown>) => {
+                        response.edit(pagination.build());
+                    });
                 }).catch((reason) => {
                     response.edit(reason);
                 });
@@ -111,7 +115,7 @@ class SearchResult<T extends EncyItem | string> {
 
     setResult(result: T[]): void { this.result = result; }
 
-    async createPagination(footer?: string, itemsPerPage: number = 15, inline = false): Promise<MessageEmbed[]> {
+    async createPagination(footer?: string, itemsPerPage: number = 15, inline = false): Promise<PaginationEmbed<unknown>> {
         const embeds: MessageEmbed[] = [];
 
         let i: number = 0;
@@ -139,12 +143,9 @@ class SearchResult<T extends EncyItem | string> {
                 i1 = i1 + itemsPerPage;
             }
         }
-        if(embeds.length > 1) {
-            //TODO: Apply pagination
-            const Pagination = new PaginationEmbed().setArray(embeds);
+        // Build pagination
+        const Pagination = new PaginationEmbed().setArray(embeds);
 
-            await Pagination.build();
-        }
-        return embeds;
+        return Pagination;
     }
 }

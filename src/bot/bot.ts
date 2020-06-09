@@ -52,6 +52,15 @@ export class Bot implements IBot {
             .on('ping', (command: ParsedMessage<Message>, message: Message) => {
                 message.reply('pong!');
             })
+            .on('plugin', (command: ParsedMessage<Message>, message: Message) => {
+                if(!command.success) return;
+                const args = command.arguments;
+                //TODO: plugins command
+
+
+
+                
+            }, ['plugins', 'pl'], ['ADMINISTRATOR'])
             .on('invite', (command: ParsedMessage<Message>, message: Message) => {
                 this.client.channels.fetch('531897661284941846').then((channel: GuildChannel) => {
                     channel.createInvite({
@@ -62,7 +71,7 @@ export class Bot implements IBot {
             })
             .on('stop', (command: ParsedMessage<Message>, message: Message) => {
                 this.stop();
-            });
+            }, ['end', 'shutdown'], ['ADMINISTRATOR']);
     }
 
     connect(): Promise<string> {
