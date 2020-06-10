@@ -1,4 +1,4 @@
-import { CommandMap } from './command-map';
+import { CommandMap, ICommand } from './command-map';
 import { requireFile, readDir, IBot, BotConfig, IBotPlugin } from '../resources';
 import { Client, Message, GuildChannel } from 'discord.js';
 import { parse, ParsedMessage } from 'discord-command-parser';
@@ -34,18 +34,21 @@ export class Bot implements IBot {
                 if (this.online)
                     logger.debug('Bot reconnected!');
                 else
-                    logger.debug('Bilberry is online');
+                    logger.debug('Bot online!');
                 this.online = true;
                 this.plugins.forEach(plugin => plugin.enable(this));
             })
             .on('message', (message: Message) => {
                 let parsed = parse(message, this.config.command.symbol);
                 if (!parsed.success) return;
-                let handlers = this.commands.get(parsed.command);
-                if (handlers) {
-                    logger.debug(`Command handled: ${message.content}`);
-                    handlers.forEach(handle => handle(parsed, message));
-                }
+
+                let command: ICommand = this.commands.get(parsed.command);
+                logger.debug(`Command handled: ${message.content}`);
+                if(command.cmdDelete) message.delete();
+                if(message.member.hasPermission(command.permissions))
+                    command.handle(parsed, message);
+                else
+                    message.reply('tu n\'as pas la permission.');
             });
 
         this.commands

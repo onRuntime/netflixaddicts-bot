@@ -1,10 +1,10 @@
-import { CommandMap } from './command-map';
-import { BotConfig } from "./config";
+import { CommandMap, BotConfig, Database } from './index';
 import { Client } from "discord.js";
 
 export interface IBot {
     config: BotConfig;
     client: Client;
+    db: Database;
     commands: CommandMap;
     online: boolean;
     plugins: IBotPlugin[];
